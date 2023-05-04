@@ -10,7 +10,6 @@ function Login() {
   const [show, setShow] = useState(false);
   const navigate = useNavigate();
   const [newData, setNewData] = useRecoilState(Data);
-  console.log(newData)
   setNewData(false);
   const sub = useRecoilValue(Data2);
   const sub1 = useRecoilValue(Data3);

@@ -13,7 +13,7 @@ const Pricing = () => {
   function confirmation() {
     if (login === true) {
       window.confirm("Press Ok to confirm the plan");
-      if (window.confirm("Press Ok to confirm the plan") === true) {
+      if (window.confirm("Press Ok to confirm the plan") == true) {
         // setShow(true);
         setSub(true);
         setLogin(true);

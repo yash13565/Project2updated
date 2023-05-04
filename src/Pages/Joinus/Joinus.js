@@ -4,11 +4,10 @@ import { useRecoilState } from "recoil";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import "./Joinus.css";
-import { Link} from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 function Joinus() {
   const [login, setLogin] = useRecoilState(Data);
-  console.log(login)
   useEffect(() => {
     if (localStorage.getItem("userDetails")) {
       let data = JSON.parse(localStorage.getItem("userDetails"));
