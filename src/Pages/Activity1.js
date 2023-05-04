@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { Data3 } from "../../src/Atom/atom";
 import { useRecoilState } from "recoil";
 
-export default function Activity1() {
+export default function SecondActivity() {
   const [sub, setsub] = useRecoilState(Data3);
 
   return (

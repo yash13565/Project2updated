@@ -6,9 +6,10 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Joinus from "./pages/Joinus/Joinus";
 import Login from "./pages/Login/Login";
 import Trainers from "./pages/Aboutus/Trainer/Trainers";
+import FirstActivity from "./pages/Activity";
+import SecondActivity from "./pages/Activity1";
 // import Footer from "./components/Footer/Footer"
-import Activity from "./pages/Activity";
-import Activity1 from "./pages/Activity1";
+
 function App() {
   return (
     <Router>
@@ -27,8 +28,8 @@ function App() {
         <Route path="/login" element={<Login />}></Route>
         {/* <Route path="/program" element={<Program />}></Route> */}
         <Route path="/trainers" element={<Trainers />}></Route>
-        <Route path="/activity" element={<Activity/>} />
-        <Route path="/activity1" element={<Activity1/>} />
+        <Route path="/activity" element={<FirstActivity/>} />
+        <Route path="/activity1" element={<SecondActivity/>} />
         {/* <Route path="/details" element={<Alert />} /> */}
       </Routes>
     </Router>
