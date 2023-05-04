@@ -1,10 +1,10 @@
 import React from "react";
 import ActivityStyle1 from "./Activity1.module.css";
 import { Link } from "react-router-dom";
-import { Data3 } from "../Atom/atom";
+import { Data3 } from "../../src/Atom/atom";
 import { useRecoilState } from "recoil";
 
-export default function SecondActivity() {
+export default function Activity1() {
   const [sub, setsub] = useRecoilState(Data3);
 
   return (
