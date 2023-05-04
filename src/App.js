@@ -24,11 +24,9 @@ function App() {
         <Route path="/about" element={<About />}></Route>
         <Route path="/joinus" element={<Joinus />}></Route>
         <Route path="/login" element={<Login />}></Route>
-        {/* <Route path="/program" element={<Program />}></Route> */}
         <Route path="/trainers" element={<Trainers />}></Route>
-        <Route path="/activity" element={<Activity1/>} />
-        <Route path="/activity1" element={<Activity2/>} />
-        {/* <Route path="/details" element={<Alert />} /> */}
+        <Route path="/activity1" element={<Activity1/>} ></Route>
+        <Route path="/activity2" element={<Activity2/>} ></Route>
       </Routes>
     </Router>
   );
