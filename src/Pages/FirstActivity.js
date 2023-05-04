@@ -2,7 +2,7 @@ import React from "react";
 import ActivityStyle from "./Activity.module.css";
 import { Link } from "react-router-dom";
 import { useRecoilState } from "recoil";
-import { Data2 } from "../../src/Atom/atom";
+import { Data2 } from "../Atom/atom";
 
 export default function FirstActivity() {
   const [sub, setsub] = useRecoilState(Data2);

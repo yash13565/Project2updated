@@ -6,8 +6,8 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Joinus from "./pages/Joinus/Joinus";
 import Login from "./pages/Login/Login";
 import Trainers from "./pages/Aboutus/Trainer/Trainers";
-import FirstActivity from "./pages/Activity";
-import SecondActivity from "./pages/Activity1";
+import FirstActivity from "./pages/FirstActivity";
+import SecondActivity from "./pages/SecondActivity";
 // import Footer from "./components/Footer/Footer"
 
 function App() {
