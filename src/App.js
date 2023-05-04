@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Joinus from "./pages/Joinus/Joinus";
 import Login from "./pages/Login/Login";
 import Trainers from "./pages/Aboutus/Trainer/Trainers";
-import Activity2 from "./pages/Activity2";
+import Activity2 from "./pages/MyActivity2";
 import MyActivity1 from "./pages/MyActivity1";
 
 function App() {
